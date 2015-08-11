@@ -14,6 +14,8 @@
 		5A5269691AC3AF6A0095A61B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A5269681AC3AF6A0095A61B /* Images.xcassets */; };
 		5A52696C1AC3AF6A0095A61B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A52696A1AC3AF6A0095A61B /* LaunchScreen.xib */; };
 		5A5269781AC3AF6A0095A61B /* Test_Bluetool_1_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5269771AC3AF6A0095A61B /* Test_Bluetool_1_DemoTests.m */; };
+		5A5269821AC3AF980095A61B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5269811AC3AF980095A61B /* CoreBluetooth.framework */; };
+		5A5269841AC404770095A61B /* Set_Left_Icon_Selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5269831AC404770095A61B /* Set_Left_Icon_Selected.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		5A5269711AC3AF6A0095A61B /* Test_Bluetool_1_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test_Bluetool_1_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5269761AC3AF6A0095A61B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A5269771AC3AF6A0095A61B /* Test_Bluetool_1_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_Bluetool_1_DemoTests.m; sourceTree = "<group>"; };
+		5A5269811AC3AF980095A61B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		5A5269831AC404770095A61B /* Set_Left_Icon_Selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Set_Left_Icon_Selected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A5269821AC3AF980095A61B /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,7 @@
 		5A52694F1AC3AF6A0095A61B = {
 			isa = PBXGroup;
 			children = (
+				5A5269811AC3AF980095A61B /* CoreBluetooth.framework */,
 				5A52695A1AC3AF6A0095A61B /* Test_Bluetool_1_Demo */,
 				5A5269741AC3AF6A0095A61B /* Test_Bluetool_1_DemoTests */,
 				5A5269591AC3AF6A0095A61B /* Products */,
@@ -96,6 +102,7 @@
 		5A52695B1AC3AF6A0095A61B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A5269831AC404770095A61B /* Set_Left_Icon_Selected.png */,
 				5A52695C1AC3AF6A0095A61B /* Info.plist */,
 				5A52695D1AC3AF6A0095A61B /* main.m */,
 			);
@@ -202,6 +209,7 @@
 				5A5269671AC3AF6A0095A61B /* Main.storyboard in Resources */,
 				5A52696C1AC3AF6A0095A61B /* LaunchScreen.xib in Resources */,
 				5A5269691AC3AF6A0095A61B /* Images.xcassets in Resources */,
+				5A5269841AC404770095A61B /* Set_Left_Icon_Selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
