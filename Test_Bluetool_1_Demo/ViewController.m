@@ -46,6 +46,9 @@
     _nServices = [[NSMutableArray alloc]init];
     _nCharacteristics = [[NSMutableArray alloc]init];
     _cbReady = false;
+    
+    
+    
     //添加UI
     [self initUI];
 }
